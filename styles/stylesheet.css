@@ -1,4 +1,4 @@
-    body.first-project {
+    body {
         background-color: teal;
     }
     img {
@@ -7,7 +7,7 @@
         margin-right: auto;
         width: 25%;
     }
-    section {
+    article {
         background: orange;
         border-style: dashed;
         width: 50%
