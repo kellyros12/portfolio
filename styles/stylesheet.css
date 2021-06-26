@@ -10,7 +10,8 @@
     article {
         background: orange;
         border-style: dashed;
-        width: 50%
+        width: 50%;
+        margin-left: 25%;
     }
     aside {
         width: 30%;
@@ -29,4 +30,25 @@
         margin-right: auto;
         background-color: lightgray;
         width: 9%;
+    }
+    body.about-me {
+        background-color: MediumPurple;
+    }
+    article.important {
+        background: green;
+        border-style: double;
+        border-color: dimgrey;
+        border-width: 3px;
+    }
+    #bold {
+        font-size: 12px;
+        font-style: oblique;
+        font-variant: small-caps;
+        font-weight: bold;
+    }
+    #bold:hover {
+        background-color: white;
+    }
+    h2:hover {
+        font-weight: normal;
     }
