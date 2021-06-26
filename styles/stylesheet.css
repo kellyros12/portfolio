@@ -1,0 +1,32 @@
+    body.first-project {
+        background-color: teal;
+    }
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 25%;
+    }
+    section {
+        background: orange;
+        border-style: dashed;
+        width: 50%
+    }
+    aside {
+        width: 30%;
+        padding-left: 15px;
+        margin-left: 15px;
+        float: right;
+        font-style: italic;
+        background-color: lightgray;
+        }
+    footer {
+        font-size: 0.65em;
+    }
+    figcaption {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: lightgray;
+        width: 9%;
+    }
