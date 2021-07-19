@@ -34,21 +34,36 @@
     body.about-me {
         background-color: MediumPurple;
     }
+    .bold {
+        font-size: 12px;
+        font-style: oblique;
+        font-variant: small-caps;
+        font-weight: bold;
+        transition: all 4s ease-in;
+    }
+    nav:hover {
+        font-size: 2em;
+    }
+    nav {
+        transition: font-size 5s ease-in 2s;
+    }
+    h2:hover {
+        font-weight: normal;
+    }
+    .first-project a:hover {
+        color: yellow;
+    }
+    .first-project ol li:nth-child(odd) {
+        background: orange;
+    }
     article.important {
         background: green;
         border-style: double;
         border-color: dimgrey;
         border-width: 3px;
     }
-    #bold {
-        font-size: 12px;
-        font-style: oblique;
-        font-variant: small-caps;
-        font-weight: bold;
-    }
-    #bold:hover {
-        background-color: white;
-    }
-    h2:hover {
-        font-weight: normal;
+
+    p.bold:hover {
+        border: 3px solid red;
+        font-size: 2em;
     }
