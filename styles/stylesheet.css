@@ -67,6 +67,11 @@ p {
     font-family: 'Roboto', sans-serif;
 }
 
+p.caption {
+    font-style: italic;
+    font-size: 0.75em;
+}
+
 a {
     text-decoration: none;
 }
