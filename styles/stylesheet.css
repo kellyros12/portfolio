@@ -1,69 +1,80 @@
-    body {
-        background-color: teal;
-    }
-    img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 25%;
-    }
-    article {
-        background: orange;
-        border-style: dashed;
-        width: 50%;
-        margin-left: 25%;
-    }
-    aside {
-        width: 30%;
-        padding-left: 15px;
-        margin-left: 15px;
-        float: right;
-        font-style: italic;
-        background-color: lightgray;
-        }
-    footer {
-        font-size: 0.65em;
-    }
-    figcaption {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        background-color: lightgray;
-        width: 19%;
-    }
-    body.about-me {
-        background-color: MediumPurple;
-    }
-    .bold {
-        font-size: 12px;
-        font-style: oblique;
-        font-variant: small-caps;
-        font-weight: bold;
-        transition: all 4s ease-in;
-    }
-    nav:hover {
-        font-size: 2em;
-    }
-    nav {
-        transition: font-size 5s ease-in 2s;
-    }
-    h2:hover {
-        font-weight: normal;
-    }
-    .first-project a:hover {
-        color: yellow;
-    }
-    .first-project ol li:nth-child(odd) {
-        background: orange;
-    }
-    article.important {
-        background: green;
-        border-style: double;
-        border-color: dimgrey;
-        border-width: 3px;
-    }
+* {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
-    p.bold:hover {
-        border: 3px solid red;
-        font-size: 2em;
+header {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    background-color: teal;
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 1.25em;
+    align-items: center;
+    justify-content: space-around;
+}
+
+img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+article {
+    display: flex;
+    background: orange;
+    width: 75%;
+    flex-direction: column;
+    align-items: center;
+    border: solid;
+    margin: 5px;
+}
+
+aside {
+    position: absolute;
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    font-style: italic;
+    background-color: lightgray;
+    right: 0.5em;
+    top: 25em;
     }
+footer {
+    display: flex;
+    justify-content: center;
+    font-size: 0.75em;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
