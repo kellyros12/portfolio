@@ -12,6 +12,10 @@ header {
     height: 50px;
 }
 
+h1 {
+    font-size: 32px;
+}
+
 nav {
     display: flex;
     width: 100%;
