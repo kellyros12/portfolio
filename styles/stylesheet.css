@@ -78,8 +78,48 @@ a {
 
 a:visited {
     text-decoration: none;
+    color: blue;
 }
 
 a:hover {
     text-decoration: none;
+}
+
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    box-sizing: border-box;
+    display: block;
+    margin: 1rem;
+}
+
+input {
+    border-radius: 5px;
+    display: inline;
+}
+
+input:focus {
+    outline: none;
+    background-color: #FFDEAD;
+}
+
+textarea:focus {
+    outline: none;
+    background-color: #FFDEAD;
+}
+
+fieldset {
+    border: none;
+}
+
+textarea {
+    position: relative;
+    margin-left: 8.5em;
+}
+
+input[type="submit"] {
+    width: 50%;
+    position: relative;
+    margin-left: 25%;
+    margin-right: 25%;
 }

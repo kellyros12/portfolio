@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/31b9c69587.js" crossorigin="anonymous"></script>
+        <title>Contact Me</title>
+        <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="about-me.html">About Me</a>
+                <a href="contact-me.html">Contact</a>
+            </nav>
+        </header>
+        <section>
+            <h1>Contact Me!</h1>
+            <form method="GET">
+                <label>Name:
+                    <input type="text" name="userName">
+                </label>
+                <label>Email:
+                    <input type="email" name="userEmail">
+                </label>
+                <fieldset>
+                    <legend>What about my page interests you?</legend>
+                    <label>
+                        <input type="checkbox" name="interests" value="coffee">Coffee
+                    </label>
+                    <label>
+                        <input type="checkbox" name="interests" value="sports">Sports
+                    </label>
+                    <label>
+                        <input type="checkbox" name="interests" value="cats">Cats
+                    </label>
+                    <label>
+                        <input type="checkbox" name="interests" value="projects">Projects
+                    </label>
+                    <label>
+                        <input type="checkbox" name="interests" value="other">Other
+                    </label>
+                </fieldset>
+                <label>Other:
+                    <textarea name="otherInterest" rows="4" cols="40"></textarea>
+                </label>
+                <p>Tell me about yourself:</p>
+                <fieldset>
+                    <legend>What is your favorite coffee brewing technique?</legend>
+                    <label>
+                        <input type="radio" name="coffeePrep" value="pourover">
+                        Pourover
+                    </label>
+                    <label>
+                        <input type="radio" name="coffeePrep" value="drip">
+                        Drip
+                    </label>
+                    <label>
+                        <input type="radio" name="coffeePrep" value="frenchpress">
+                        French Press
+                    </label>
+                    <label>
+                        <input type="radio" name="coffeePrep" value="espresso">
+                        Espresso
+                    </label>
+                    <label>
+                        <input type="radio" name="coffeePrep" value="other">
+                        N/A or Not Listed
+                    </label>
+                </fieldset>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        <footer>
+            <p>This page built by Kelly Ros in June 2021.</p>
+        </footer>
+    </body>
+</html>
